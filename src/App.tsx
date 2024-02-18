@@ -5,13 +5,13 @@ export default function App() {
   const [topRightRadius, setTopRightRadius] = useState<number>(0);
   const [bottomRightRadius, setBottomRightRadius] = useState<number>(0);
   const [bottomLeftRadius, setBottomLeftRadius] = useState<number>(0);
-
+  
   const StylesRadius = {
     borderTopLeftRadius: topLeftRadius,
     borderTopRightRadius: topRightRadius,
     borderBottomRightRadius: bottomRightRadius,
     borderBottomLeftRadius: bottomLeftRadius,
-  };
+};
 
   function handleTopLeftRadius(e: ChangeEvent<HTMLInputElement>) {
     const { value } = e.target;
