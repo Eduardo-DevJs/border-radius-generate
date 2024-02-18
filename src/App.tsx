@@ -124,7 +124,7 @@ export default function App() {
 
           <div className="p-3 bg-slate-900 rounded text-slate-100">
             border-radius:{" "}
-            {`${topLeftRadius}px ${topRightRadius}px ${bottomRightRadius}px ${bottomRightRadius}px`}
+            {`${topLeftRadius}px ${topRightRadius}px ${bottomRightRadius}px ${bottomLeftRadius}px`}
           </div>
         </div>
       </div>
